@@ -15,3 +15,26 @@
     height: 70px;
     width: auto;
 }
+#video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+}
+
+.jumbotron {
+position: absolute;
+overflow: hidden;
+width: 100%;
+top:150px;
+
+}
+
+.jumbotron .container {
+position: relative;
+z-index: 1;
+}
